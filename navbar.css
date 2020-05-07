@@ -4,12 +4,7 @@
 }
 .main1
 {
-    width: 100%; 
-    background: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    width: 20%; 
     height: 70px;
 }
 .main1 img
@@ -23,12 +18,16 @@ li a{text-decoration: none;}
 {
     position: absolute; 
     width: 150px;
-    top: 110px; 
+    top: 65px; 
     opacity: 0;
     visibility: hidden;
     transition: ease-out .35s;
     -moz-transition: ease-out .35s;
     -webkit-transition: ease-out .35s;
+}
+.donation-dropdown
+{
+    top: 38px;
 }
 .mainnav li
 {
@@ -133,4 +132,81 @@ li a{text-decoration: none;}
     transition: ease-out .35s;
     -moz-transition: ease-out .35s;
     -webkit-transition: ease-out .35s;
+}
+.news
+{
+    margin-right:35px;
+    left: 100px;
+}
+.donation
+{
+    width: 150px;
+    top: 0px;
+    right: 80px;
+}
+@media only screen and (max-width:992px)
+{
+    .main1
+    {
+        width: 20%;
+        height: 70px;
+    }
+    .mainnav .home
+{
+    border: none;
+    background-color: rgb(66, 103, 200);
+    border-radius: 25px;
+    margin-left: 0px; 
+}
+.news
+{
+    margin-right: 0px;
+}
+.donation
+{
+    width: 25%;
+    margin-left: 35px;
+}
+.dropdown
+{
+    position: absolute; 
+    width: 150px;
+    top: 150px; 
+    opacity: 0;
+    visibility: hidden;
+    transition: ease-out .35s;
+    -moz-transition: ease-out .35s;
+    -webkit-transition: ease-out .35s;
+}
+.about-dd
+{
+    left: 150px;
+    top: 120px;
+}
+.services-dd
+{
+    left: 150px;
+}
+.fp-dd
+{
+    left: 150px;
+    top: 190px;
+}
+.donation-dropdown
+{
+    top: 38px;
+}
+}
+@media (max-width:1024px)
+{
+    .main
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .main1 img
+    {
+        margin-left: -110px;
+        margin-right: 0px;
+    }
 }
